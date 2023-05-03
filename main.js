@@ -4,15 +4,14 @@ const weightInput = document.getElementById("weight");
 let modalTitle = document.getElementById("calculateModalTitle");
 let modalBody = document.getElementById("calculateModalBody");
 
-// const button = document.getElementById("calculate-button");
-
 form.addEventListener("submit", function (event) {
   event.preventDefault(); // ignore default event
   let heightValue = +heightInput.value;
   let weightValue = +weightInput.value;
+
+  findBMI(heightValue, weightValue);
   heightInput.value = "";
   weightInput.value = "";
-  findBMI(heightValue, weightValue);
 });
 
 const findBMI = function (finalHeight, finalWeight) {
