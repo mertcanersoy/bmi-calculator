@@ -1,0 +1,22 @@
+body {
+    margin-top: 3rem;
+    background-color: #1a1c26ff;
+    color: #fff;
+}
+
+ul {
+    margin-top: 4rem;
+    list-style-type: none;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.modal-dialog {
+    color: black
+}
+
+.fat-level{
+    color: orange;
+}
